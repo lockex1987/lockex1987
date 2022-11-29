@@ -1,5 +1,6 @@
 <div align="center">
-<img src="images/logo.svg" />
+
+<h2><img src="images/logo.svg" /></h2>
 
 **NGUYEN VAN HUYEN**
 
