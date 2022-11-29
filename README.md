@@ -19,16 +19,16 @@ Tech stack that I use:
 
 <img src="technologies/js.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/vue-router.png" height="48" />
-<img src="technologies/ant_design_vue.svg" height="48" />
-<img src="technologies/bootstrap.svg" height="48" />
-<img src="technologies/node.js.svg" height="48" />
-<img src="technologies/express.svg" height="48" />
-<img src="technologies/vite.svg" height="48" />
-<img src="technologies/eslint.svg" height="48" />
-<img src="technologies/mongodb.svg" height="48" />
-<img src="technologies/redis.svg" height="48" />
-<img src="technologies/nginx.svg" height="48" />
+<img src="technologies/vue-router.png" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/ant_design_vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/bootstrap.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/node.js.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/express.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/vite.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/eslint.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/mongodb.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/redis.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/nginx.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/ubuntu.svg" height="48" />
 
 </div>
