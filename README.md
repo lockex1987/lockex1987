@@ -5,12 +5,9 @@
 
 Full-stack Web Developer
 
-<img src="icons/envelope.svg" /> [lockex1987@gmail.com](mailto:lockex1987@gmail.com)
-
-<img src="icons/globe.svg" /> [lockex1987.com](https://lockex1987.com/)
-
-<img src="icons/github.svg" /> [github.com/lockex1987](https://github.com/lockex1987)
-
+<img src="icons/envelope.svg" /> [lockex1987@gmail.com](mailto:lockex1987@gmail.com)&nbsp;&nbsp;&nbsp;
+<img src="icons/globe.svg" /> [lockex1987.com](https://lockex1987.com/)&nbsp;&nbsp;&nbsp;
+<img src="icons/github.svg" /> [github.com/lockex1987](https://github.com/lockex1987)&nbsp;&nbsp;&nbsp;
 <img src="icons/viblo.svg" /> [viblo.asia/u/lockex1987](https://viblo.asia/u/lockex1987)
 
 I'm a developer, a web enthusiast. I've been working since 2009. My passion is building web applications that are useful, secure, high performance. I work at [VTCC](https://vtcc.vn/).
