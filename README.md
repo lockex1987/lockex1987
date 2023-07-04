@@ -2,11 +2,11 @@
 
 <h2><img src="images/logo.svg" /></h2>
 
-**NGUYEN VAN HUYEN**
+**lockex1987 (Nguyễn Văn Huyên)**
 
 Full-stack Web Developer
 
-<img src="icons/envelope.svg" /> [lockex1987@gmail.com](mailto:lockex1987@gmail.com)&nbsp;&nbsp;&nbsp;
+[![mail](icons/envelope.svg)](mailto:lockex1987@gmail.com)&nbsp;&nbsp;&nbsp;
 <img src="icons/globe.svg" /> [lockex1987.com](https://lockex1987.com/)&nbsp;&nbsp;&nbsp;
 <img src="icons/github.svg" /> [github.com/lockex1987](https://github.com/lockex1987)&nbsp;&nbsp;&nbsp;
 <img src="icons/viblo.svg" /> [viblo.asia/u/lockex1987](https://viblo.asia/u/lockex1987)
