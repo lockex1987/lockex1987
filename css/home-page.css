@@ -13,7 +13,8 @@ article {
 }
 
 .logo-card {
-  height: 100dvh;
+  /* height: 100dvh; */
+  height: 100vh;
 }
 
 @media (min-width: 768px) {
