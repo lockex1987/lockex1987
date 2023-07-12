@@ -16,6 +16,7 @@ I'm a developer, a web enthusiast. I've been working since 2009. My passion is b
 Tech stack that I use:
 
 <img src="technologies/js.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/typescript.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/vue-router.png" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/ant_design_vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
@@ -24,7 +25,6 @@ Tech stack that I use:
 <img src="technologies/node.js.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/express.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/spring boot.png" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/vite.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/eslint.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/mongodb.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/postgres.svg" height="48" />&nbsp;&nbsp;&nbsp;
