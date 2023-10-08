@@ -34,6 +34,7 @@ article {
 
 .skills .tech-logo-1 {
   height: 3rem;
+  width: 3rem;
   object-fit: contain;
   margin: 0.5rem;
   vertical-align: baseline;
