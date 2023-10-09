@@ -23,7 +23,7 @@ Tech stack that I use:
 <img src="technologies/bootstrap.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/node.js.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/express.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/spring boot.png" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/spring-boot.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/gopher.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/eslint.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/mongodb.svg" height="48" />&nbsp;&nbsp;&nbsp;
