@@ -1,4 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1rem; height: 1rem;" width="16" height="16">
-  <polygon fill="currentColor" points="10.92 17.23 12.88 17.23 18.37 3.98 16.4 3.98 13.42 11.16 10.34 11.16 7.37 3.98 5.41 3.98 10.92 17.23"></polygon>
-  <polygon fill="currentColor" points="6.19 20.02 17.58 20.02 17.58 18.36 6.19 18.36 6.19 20.02"></polygon>
+  <style>
+    .adaptive-color {
+      fill: currentColor;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .adaptive-color {
+        fill: #fff;
+      }
+    }
+
+    [data-color-mode=dark][data-dark-theme*=dark] .adaptive-color {
+      fill: #fff;
+    }
+  </style>
+
+  <polygon class="adaptive-color" points="10.92 17.23 12.88 17.23 18.37 3.98 16.4 3.98 13.42 11.16 10.34 11.16 7.37 3.98 5.41 3.98 10.92 17.23"></polygon>
+  <polygon class="adaptive-color" points="6.19 20.02 17.58 20.02 17.58 18.36 6.19 18.36 6.19 20.02"></polygon>
 </svg>
