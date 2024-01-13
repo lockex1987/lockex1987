@@ -12,7 +12,7 @@ Full-stack Web Developer
 [![telegram](icons/telegram.svg)](https://t.me/lockex1987)&nbsp;&nbsp;&nbsp;
 [![viblo](icons/viblo.svg)](https://viblo.asia/u/lockex1987)
 
-I'm a developer, a web enthusiast. I've been working since 2009. My passion is building web applications that are useful, secure, high performance. I work at [VTCC](https://viettelai.vn/).
+I'm a developer, a web enthusiast. I've been working since 2009. My passion is building web applications that are useful, secure, high performance. I work at [Viettel AI](https://viettelai.vn/).
 
 Tech stack that I use:
 
