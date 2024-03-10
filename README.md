@@ -18,6 +18,6 @@ Tech stack that I use:
 
 <img src="technologies/angular.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/spring-boot.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/postgres.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/mysql.svg" height="48" />&nbsp;&nbsp;&nbsp;
 
 </div>
