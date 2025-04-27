@@ -1,41 +1,41 @@
 html {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 body {
-  /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
 }
 
 article {
-  margin: 0 auto;
-  padding: 1rem;
-  max-width: 767px;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 767px;
 }
 
 .logo-card {
-  /* height: 100dvh; */
-  height: 100vh;
+    /* height: 100dvh; */
+    height: 100vh;
 }
 
 @media (min-width: 768px) {
-  .logo-card {
-    height: auto;
-  }
+    .logo-card {
+        height: auto;
+    }
 }
 
 .avatar {
-  width: 235px;
-  height: 298px;
+    width: 235px;
+    height: 298px;
 }
 
 .summary {
-  max-width: 500px;
+    max-width: 500px;
 }
 
 .skills .tech-logo-1 {
-  height: 3rem;
-  width: 3rem;
-  object-fit: contain;
-  margin: 0.5rem;
-  vertical-align: baseline;
+    height: 3rem;
+    width: 3rem;
+    object-fit: contain;
+    margin: 0.5rem;
+    vertical-align: baseline;
 }
