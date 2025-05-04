@@ -4,7 +4,7 @@
 
 **lockex1987 (Nguyễn Văn Huyên)**
 
-Full-stack Web Developer
+Senior Full-stack Developer
 
 [![mail](icons/envelope.svg)](mailto:lockex1987@gmail.com)&nbsp;&nbsp;&nbsp;
 [![website](icons/globe.svg)](https://lockex1987.com/)&nbsp;&nbsp;&nbsp;
@@ -12,7 +12,7 @@ Full-stack Web Developer
 [![telegram](icons/telegram.svg)](https://t.me/lockex1987)&nbsp;&nbsp;&nbsp;
 [![viblo](icons/viblo.svg)](https://viblo.asia/u/lockex1987)
 
-I'm a developer, a web enthusiast. I've been working since 2009. My passion is building web applications that are useful, secure, high performance. I work at [Viettel AI](https://viettelai.vn/).
+I've been working since 2009. My passion is building applications that are useful, secure, high performance.
 
 Tech stack that I use:
 
