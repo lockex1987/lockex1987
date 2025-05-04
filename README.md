@@ -14,7 +14,7 @@ Senior Full-stack Developer
 
 I've been working since 2009. My passion is building applications that are useful, secure, high performance.
 
-Tech stack that I use:
+Tech stack that I prefer:
 
 <img src="technologies/vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/spring-boot.svg" height="48" />&nbsp;&nbsp;&nbsp;
