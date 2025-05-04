@@ -12,7 +12,9 @@ Senior Full-stack Developer
 [![telegram](icons/telegram.svg)](https://t.me/lockex1987)&nbsp;&nbsp;&nbsp;
 [![viblo](icons/viblo.svg)](https://viblo.asia/u/lockex1987)
 
-I've been working since 2009. My passion is building applications that are useful, secure, high performance.
+My CV: [Online](https://static.lockex1987.com/cv/), [PDF](https://static.lockex1987.com/cv/cv-v2.pdf)
+
+I've been working since 2009. My passion is building applications that are useful, secure, and high performance.
 
 Tech stack that I prefer:
 
