@@ -6,7 +6,7 @@
 
 Senior Full-stack Developer
 
-![mail](icons/envelope.svg) lockex1987@gmail.com&nbsp;&nbsp;&nbsp;
+![mail](icons/envelope.svg) lockex1987 at gmail.com&nbsp;&nbsp;&nbsp;
 [![website](icons/globe.svg)](https://lockex1987.com/) lockex1987.com&nbsp;&nbsp;&nbsp;
 [![github](icons/github.svg)](https://github.com/lockex1987) github.com/lockex1987&nbsp;&nbsp;&nbsp;
 ![phone](icons/bi-phone.svg) 038-651-9125&nbsp;&nbsp;&nbsp;
