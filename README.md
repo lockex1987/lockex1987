@@ -9,7 +9,7 @@ Senior Full-stack Developer
 [![mail](icons/envelope.svg)](mailto:lockex1987@gmail.com) lockex1987@gmail.com&nbsp;&nbsp;&nbsp;
 [![website](icons/globe.svg)](https://lockex1987.com/) lockex1987.com&nbsp;&nbsp;&nbsp;
 [![github](icons/github.svg)](https://github.com/lockex1987) github.com/lockex1987&nbsp;&nbsp;&nbsp;
-[![phone](icons/bi-phone.svg)](tel:0386519125) 038-651-9125&nbsp;&nbsp;&nbsp;
+![phone](icons/bi-phone.svg) 038-651-9125&nbsp;&nbsp;&nbsp;
 ![cake](icons/bi-cake.svg) 1987&nbsp;&nbsp;&nbsp;
 ![geo](icons/bi-geo-alt.svg) Hanoi, Vietnam
 
