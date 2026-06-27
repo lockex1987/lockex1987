@@ -19,9 +19,12 @@ I've been working since 2009. My passion is building applications that are usefu
 
 Tech stack that I prefer:
 
+<img src="technologies/bun.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/spring-boot.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/java.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/golang.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/fiber.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/mysql.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/aws.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="technologies/claude.svg" height="48" />
 
 </div>
