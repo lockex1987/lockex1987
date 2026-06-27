@@ -9,4 +9,5 @@ rsync -avz --delete \
   --exclude package-lock.json \
   --exclude README.md \
   --exclude rsync_deploy.sh \
+  -e "ssh -i /home/lockex1987/.ssh/lockex1987" \
   ./ lockex1987@103.142.26.170:/var/www/html/home-page
