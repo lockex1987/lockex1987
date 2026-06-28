@@ -24,7 +24,6 @@ Tech stack that I prefer:
 <img src="technologies/golang.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/fiber.svg" height="48" />&nbsp;&nbsp;&nbsp;
 <img src="technologies/mysql.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/aws.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/claude.svg" height="48" />
+<img src="technologies/gemini.svg" height="48" />
 
 </div>
