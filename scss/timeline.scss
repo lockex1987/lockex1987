@@ -1,0 +1,240 @@
+$primary: #6d5dfc;
+$border-color: #dee2e6;
+$gray-400: #ced4da;
+
+// Giống $grid-breakpoints của Bootstrap
+// Sử dụng luôn mixin của Bootstrap?
+$grid-breakpoints: (
+    'xs': 0,
+    'sm': 576px,
+    'md': 768px,
+    'lg': 992px,
+    'xl': 1200px,
+);
+
+@mixin mq($width, $type: min) {
+    @if map_has_key($grid-breakpoints, $width) {
+        $width: map_get($grid-breakpoints, $width);
+
+        @if $type ==max {
+            $width: $width - 1px;
+        }
+
+        @media (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+
+.timeline {
+    // Đường thẳng dọc
+    &::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        // width: 2px;
+        // background-color: $gray-700; // giống .border
+        background-color: $border-color;
+        top: 0;
+        bottom: 0;
+        left: 31px;
+        margin-left: -1px;
+        border-radius: 4px;
+
+        @include mq(md) {
+            left: 50%;
+        }
+    }
+
+    // Bao nội dung
+    .timeline-container {
+        position: relative;
+        width: 100%;
+        padding: 10px 25px 10px 70px;
+
+        @include mq(md) {
+            width: 50%;
+        }
+
+        // Vòng tròn ở đường thẳng dọc
+        &::after {
+            content: "";
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            left: 23px;
+            top: 32px;
+            background-color: $gray-400;
+            // .text-orange
+            // border: 4px solid $danger;
+            border: 4px solid $primary;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        // Nội dung
+        .timeline-content {
+            // .p-3
+            padding: 1rem;
+            // .border
+            border: 1px solid $border-color;
+            // .rounded
+            border-radius: .25rem;
+            // .position-relative
+            position: relative;
+
+            // Đang hiển thị lỗi trên mobile
+            // box-shadow: 0 3px 0 #d7e4ed;
+
+            // Sáng hơn màu nền
+            background-color: mix(#f2f3f7, #fff, 60%);
+
+            // Ảnh logo công ty
+            img {
+                width: 4rem;
+            }
+
+            // Ẩn thông tin chi tiết
+            ul {
+                display: none;
+            }
+
+            // Tất cả các mũi tên trỏ sang trái
+            &::before {
+                content: " ";
+                height: 0;
+                position: absolute;
+                top: 22px;
+                width: 0;
+                z-index: 1;
+                border: medium solid $border-color;
+                right: 100%;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent $border-color transparent transparent;
+            }
+        }
+    }
+
+    @include mq(md) {
+        // Ô chẵn
+        .timeline-container:nth-child(even) {
+            // Chuyển sang trái
+            left: 0;
+            padding: 10px 40px 10px 0;
+
+            // Mũi trên trỏ sang bên phải
+            .timeline-content {
+                &::before {
+                    left: 100%;
+                    right: unset;
+                    border-width: 10px 0 10px 10px;
+                    border-color: transparent transparent transparent $border-color;
+                }
+            }
+
+            // Điều chỉnh lại vòng tròn của vùng bao bên trái
+            &::after {
+                left: unset;
+                right: -8px; // một nửa chiều rộng
+            }
+        }
+
+        // Ô lẻ
+        .timeline-container:nth-child(odd) {
+            // Chuyển sang phải
+            left: 50%;
+            padding: 10px 0 10px 40px;
+
+            // Mũi trên trỏ sang bên trái
+            .timeline-content {
+                &::before {
+                    border-width: 10px 10px 10px 0;
+                    border-color: transparent $border-color transparent transparent;
+                }
+            }
+
+            // Điều chỉnh lại vòng tròn của vùng bao bên phải
+            &::after {
+                left: -8px; // một nửa chiều rộng
+            }
+        }
+    }
+}
+
+
+// Animation
+.timeline-container {
+    &.bounce-in {
+        // Nút tròn có animation to ra
+        &::after {
+            animation: cd-bounce-1 0.6s;
+        }
+
+        // Nội dung đi từ trái sang phải
+        .timeline-content {
+            animation: cd-bounce-2 .6s;
+        }
+
+        // Ở màn hình to, những nội dung chẵn sẽ đi từ phải sang trái
+        &:nth-child(even) {
+            .timeline-content {
+                @include mq(md) {
+                    animation: cd-bounce-2-inverse .6s;
+                }
+            }
+        }
+    }
+}
+
+
+// Nút tròn to ra
+@keyframes cd-bounce-1 {
+    0% {
+        opacity: 0;
+        transform: scale(.5);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+// Đi từ trái sang phải
+@keyframes cd-bounce-2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+// Đi từ phải sang trái
+@keyframes cd-bounce-2-inverse {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

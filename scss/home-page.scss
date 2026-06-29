@@ -1,0 +1,36 @@
+html {
+    // Make it small when printing
+    font-size: 12px;
+}
+
+.timeline-company-logo {
+    height: 4rem;
+}
+
+// Ảnh các kỹ năng
+.tech-logo-1 {
+    height: 3rem;
+    object-fit: contain;
+    margin: 0.5rem;
+    vertical-align: baseline;
+}
+
+.portfolio-screenshot {
+    width: 300px;
+    max-height: 200px;
+}
+
+/* override styles when printing */
+@media print {
+    .break-after {
+        page-break-after: always;
+    }
+
+    .avoid-break {
+        page-break-inside: avoid;
+    }
+
+    .hide-when-print {
+        display: none;
+    }
+}

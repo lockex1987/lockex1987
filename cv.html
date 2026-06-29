@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <!-- HTML of CV to export into PDF, it - pdf doc format/node-demo/export_pdf.mjs -->
+    <!-- Print CV in Chrome, save as PDF, tick background graphics. Uglier than Puppeteer. -->
+    <link rel="icon" href="images/logo.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="libs/line-awesome/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/home-page.css" />
+    <style>
+        body {
+            font-family: var(--bs-body-font-family);
+        }
+    </style>
+</head>
+
+<body>
+<div class="break-after">
+    <div class="text-center mb-4">
+        <img class="rounded-circle" src="images/nvh/nvh3.jpg" style="width: 235px;" />
+    </div>
+
+    <div class="text-center mb-4">
+        <div class="font-weight-600 font-size-2.5 text-uppercase"
+            style="color: #fff; -webkit-text-fill-color: #fff; -webkit-text-stroke: 1px #000;"
+        >
+            Nguyen Van Huyen
+        </div>
+
+        <div>
+            Senior Full-stack Developer
+        </div>
+    </div>
+
+    <!-- Detail infomation -->
+    <div class="mb-4">
+        <div class="text-center">
+            <span class="px-3 py-2 d-inline-block">
+                <a class="text-decoration-none text-body" href="mailto:lockex1987@gmail.com">
+                    <i class="me-2 la la-envelope"></i>
+                    lockex1987@gmail.com
+                </a>
+            </span>
+
+            <span class="px-3 py-2 d-inline-block">
+                <a class="text-decoration-none text-body" href="https://lockex1987.com/" target="_blank">
+                    <!--i class="me-2 la la-home"></i-->
+                    <svg
+                        viewBox="64 64 896 896"
+                        style="width: 1rem; height: 1rem;"
+                        class="me-2"
+                        fill="currentColor"
+                    >
+                        <path d="M854.4 800.9c.2-.3.5-.6.7-.9C920.6 722.1 960 621.7 960 512s-39.4-210.1-104.8-288c-.2-.3-.5-.5-.7-.8-1.1-1.3-2.1-2.5-3.2-3.7-.4-.5-.8-.9-1.2-1.4l-4.1-4.7-.1-.1c-1.5-1.7-3.1-3.4-4.6-5.1l-.1-.1c-3.2-3.4-6.4-6.8-9.7-10.1l-.1-.1-4.8-4.8-.3-.3c-1.5-1.5-3-2.9-4.5-4.3-.5-.5-1-1-1.6-1.5-1-1-2-1.9-3-2.8-.3-.3-.7-.6-1-1C736.4 109.2 629.5 64 512 64s-224.4 45.2-304.3 119.2c-.3.3-.7.6-1 1-1 .9-2 1.9-3 2.9-.5.5-1 1-1.6 1.5-1.5 1.4-3 2.9-4.5 4.3l-.3.3-4.8 4.8-.1.1c-3.3 3.3-6.5 6.7-9.7 10.1l-.1.1c-1.6 1.7-3.1 3.4-4.6 5.1l-.1.1c-1.4 1.5-2.8 3.1-4.1 4.7-.4.5-.8.9-1.2 1.4-1.1 1.2-2.1 2.5-3.2 3.7-.2.3-.5.5-.7.8C103.4 301.9 64 402.3 64 512s39.4 210.1 104.8 288c.2.3.5.6.7.9l3.1 3.7c.4.5.8.9 1.2 1.4l4.1 4.7c0 .1.1.1.1.2 1.5 1.7 3 3.4 4.6 5l.1.1c3.2 3.4 6.4 6.8 9.6 10.1l.1.1c1.6 1.6 3.1 3.2 4.7 4.7l.3.3c3.3 3.3 6.7 6.5 10.1 9.6 80.1 74 187 119.2 304.5 119.2s224.4-45.2 304.3-119.2a300 300 0 0 0 10-9.6l.3-.3c1.6-1.6 3.2-3.1 4.7-4.7l.1-.1c3.3-3.3 6.5-6.7 9.6-10.1l.1-.1c1.5-1.7 3.1-3.3 4.6-5 0-.1.1-.1.1-.2 1.4-1.5 2.8-3.1 4.1-4.7.4-.5.8-.9 1.2-1.4a99 99 0 0 0 3.3-3.7zm4.1-142.6c-13.8 32.6-32 62.8-54.2 90.2a444.07 444.07 0 0 0-81.5-55.9c11.6-46.9 18.8-98.4 20.7-152.6H887c-3 40.9-12.6 80.6-28.5 118.3zM887 484H743.5c-1.9-54.2-9.1-105.7-20.7-152.6 29.3-15.6 56.6-34.4 81.5-55.9A373.86 373.86 0 0 1 887 484zM658.3 165.5c39.7 16.8 75.8 40 107.6 69.2a394.72 394.72 0 0 1-59.4 41.8c-15.7-45-35.8-84.1-59.2-115.4 3.7 1.4 7.4 2.9 11 4.4zm-90.6 700.6c-9.2 7.2-18.4 12.7-27.7 16.4V697a389.1 389.1 0 0 1 115.7 26.2c-8.3 24.6-17.9 47.3-29 67.8-17.4 32.4-37.8 58.3-59 75.1zm59-633.1c11 20.6 20.7 43.3 29 67.8A389.1 389.1 0 0 1 540 327V141.6c9.2 3.7 18.5 9.1 27.7 16.4 21.2 16.7 41.6 42.6 59 75zM540 640.9V540h147.5c-1.6 44.2-7.1 87.1-16.3 127.8l-.3 1.2A445.02 445.02 0 0 0 540 640.9zm0-156.9V383.1c45.8-2.8 89.8-12.5 130.9-28.1l.3 1.2c9.2 40.7 14.7 83.5 16.3 127.8H540zm-56 56v100.9c-45.8 2.8-89.8 12.5-130.9 28.1l-.3-1.2c-9.2-40.7-14.7-83.5-16.3-127.8H484zm-147.5-56c1.6-44.2 7.1-87.1 16.3-127.8l.3-1.2c41.1 15.6 85 25.3 130.9 28.1V484H336.5zM484 697v185.4c-9.2-3.7-18.5-9.1-27.7-16.4-21.2-16.7-41.7-42.7-59.1-75.1-11-20.6-20.7-43.3-29-67.8 37.2-14.6 75.9-23.3 115.8-26.1zm0-370a389.1 389.1 0 0 1-115.7-26.2c8.3-24.6 17.9-47.3 29-67.8 17.4-32.4 37.8-58.4 59.1-75.1 9.2-7.2 18.4-12.7 27.7-16.4V327zM365.7 165.5c3.7-1.5 7.3-3 11-4.4-23.4 31.3-43.5 70.4-59.2 115.4-21-12-40.9-26-59.4-41.8 31.8-29.2 67.9-52.4 107.6-69.2zM165.5 365.7c13.8-32.6 32-62.8 54.2-90.2 24.9 21.5 52.2 40.3 81.5 55.9-11.6 46.9-18.8 98.4-20.7 152.6H137c3-40.9 12.6-80.6 28.5-118.3zM137 540h143.5c1.9 54.2 9.1 105.7 20.7 152.6a444.07 444.07 0 0 0-81.5 55.9A373.86 373.86 0 0 1 137 540zm228.7 318.5c-39.7-16.8-75.8-40-107.6-69.2 18.5-15.8 38.4-29.7 59.4-41.8 15.7 45 35.8 84.1 59.2 115.4-3.7-1.4-7.4-2.9-11-4.4zm292.6 0c-3.7 1.5-7.3 3-11 4.4 23.4-31.3 43.5-70.4 59.2-115.4 21 12 40.9 26 59.4 41.8a373.81 373.81 0 0 1-107.6 69.2z"></path>
+                    </svg>
+                    lockex1987.com
+                </a>
+            </span>
+
+            <span class="px-3 py-2 d-inline-block">
+                <a class="text-decoration-none text-body" href="https://github.com/lockex1987" target="_blank">
+                    <i class="me-2 lab la-github"></i>
+                    github.com/lockex1987
+                </a>
+            </span>
+
+            <br />
+
+            <!--span class="px-3 py-2 d-inline-block">
+                <a class="text-decoration-none text-body" href="https://t.me/lockex1987">
+                    <i class="me-2 la la-telegram"></i>
+                    t.me/lockex1987
+                </a>
+            </span-->
+
+            <!--span class="px-3 py-2 d-inline-block">
+                <a class="text-decoration-none text-body" href="https://viblo.asia/u/lockex1987" target="_blank">
+                    <img src="images/programming/viblo.svg" style="width: 1rem; height: 1rem;" class="me-2 d-none"/>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1rem; height: 1rem;" class="me-2">
+                        <polygon fill="currentColor" points="10.92 17.23 12.88 17.23 18.37 3.98 16.4 3.98 13.42 11.16 10.34 11.16 7.37 3.98 5.41 3.98 10.92 17.23"/>
+                        <polygon fill="currentColor" points="6.19 20.02 17.58 20.02 17.58 18.36 6.19 18.36 6.19 20.02"/>
+                    </svg>
+                    viblo.asia/u/lockex1987
+                </a>
+            </span-->
+
+            <span class="px-3 py-2 d-inline-block">
+                <a class="text-decoration-none text-body" href="tel:0386519125">
+                    <i class="me-2 la la-phone"></i>
+                    038-651-9125
+                </a>
+            </span>
+
+            <span class="px-3 py-2 d-inline-block">
+                <span class="text-body">
+                    <i class="me-2 la la-birthday-cake"></i>
+                    1987
+                </span>
+            </span>
+
+            <span class="px-3 py-2 d-inline-block">
+                <span class="text-body">
+                    <i class="me-2 la la-map-marker"></i>
+                    Hanoi, Vietnam
+                </span>
+            </span>
+
+            <span class="py-3 d-none">
+                <a class="text-decoration-none text-primary" href="https://www.facebook.com/vanhuyen.nguyen.9638" target="_blank">
+                    <i class="me-2 la la-facebook"></i>
+                    vanhuyen.nguyen.9638
+                </a>
+            </span>
+        </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+        I've been working since 2009.
+        My passion is building applications that are useful, secure, and high performance.
+    </div>
+
+    <div class="container-fluid mb-5">
+        <div class="font-weight-600 text-center mb-3">
+            Timeline
+        </div>
+
+        <div class="row">
+            <!-- TODO: Setup max-width in wide screen -->
+            <div class="col border rounded p-3 text-center m-1">
+                <div class="timeline-content bg-white">
+                    <div class="mb-3">
+                        09/2005 - 07/2009
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="images/company/coltech.png" class="timeline-company-logo" />
+                    </div>
+
+                    <div>
+                        VNU University of Engineering and Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col border rounded p-3 text-center m-1">
+                <div class="timeline-content bg-white">
+                    <div class="mb-3">
+                        08/2009 - 03/2016
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="images/company/viettel.svg" class="timeline-company-logo" />
+                    </div>
+
+                    <div>
+                        Viettel Software
+                    </div>
+                </div>
+            </div>
+            
+            <!--div class="col border rounded p-3 text-center m-1">
+                <div class="timeline-content bg-white">
+                    <div class="mb-3">
+                        05/2016 - 07/2016
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="images/company/imip.png" class="timeline-company-logo" />
+                    </div>
+
+                    <div>
+                        iMIP Technology And Solution Consultancy
+                    </div>
+                </div>
+            </div-->
+            
+            <div class="col border rounded p-3 text-center m-1">
+                <div class="timeline-content bg-white">
+                    <div class="mb-3">
+                        04/2016 - 03/2017
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="images/company/ifi solution.png" class="timeline-company-logo" />
+                    </div>
+
+                    <div>
+                        IFI Solutions
+                    </div>
+                </div>
+            </div>
+
+            <div class="col border rounded p-3 text-center m-1">
+                <div class="timeline-content bg-white">
+                    <div class="mb-3">
+                        04/2017 - present
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="images/company/viettel-ai.svg" class="timeline-company-logo" />
+                    </div>
+
+                    <div>
+                        Viettel AI
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="font-weight-600 text-center mb-3">
+            My values:
+        </div>
+
+        <ul>
+            <li>
+                Aware of security, preventing popular threats by checklist
+            </li>
+            <li>
+                Optimize code for high performance, fast response, cheap and lightweight resources
+            </li>
+            <li>
+                Have experience with large projects (millions of records per day)
+            </li>
+            <li>
+                Write clean, readable, maintainable code
+            </li>
+            <li>
+                Intermediate English: TOEIC Certificate with a score of 860 (taken on 26/08/2020)
+            </li>
+            <li>
+                Progressive learner
+            </li>
+            <li>
+                Have high responsibility for assigned work
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- Page 3: Tech stack + Skills -->
+<div class="mb-5">
+    <div class="font-weight-600 text-center mb-3">
+        Technical skill set
+    </div>
+    <p>I had the opportunity to works with different skills:</p>
+    <ul>
+        <li>Linux, Ubuntu, VPS, Git, GitHub, Docker, Nginx, Kafka</li>
+        <li>Oracle, MySQL, MariaDB, Postgres, SQLite, MongoDB, Cassandra, ClickHouse, Redis</li>
+        <li>Progressive Web App, WebSocket, Server-Sent Events, gRPC, SMPP (Short Message Peer-to-Peer)</li>
+        <li>Java, Scala, Groovy, Struts, Spring Boot, Netflix Eureka Cloud</li>
+        <li>PHP, Laravel, Node.js, Deno, Bun, Express, Golang, Fiber</li>
+        <li>Angular, Vue, Bootstrap, Highcharts, Three.js, Leaflet</li>
+        <!--li>IntelliJ IDEA, Visual Studio Code</li-->
+        <li>Gemini</li>
+        <li>TODO: AWS, Claude</li>
+        <!-- AI: Deepseek, Copilot, Chat GPT -->
+    </ul>
+
+    <p>Tech stack that I prefer:</p>
+
+    <div class="text-center mx-auto" style="max-width: 44rem">
+        <img src="images/programming/bun.svg" class="tech-logo-1"/>
+        <img src="images/programming/vue.svg" class="tech-logo-1"/>
+        <!--img src="images/programming/java.svg" class="tech-logo-1"/-->
+        <!--img src="images/programming/spring-boot.svg" class="tech-logo-1"/-->
+        <img src="images/programming/golang.svg" class="tech-logo-1"/>
+        <img src="images/programming/fiber.svg" class="tech-logo-1"/>
+        <img src="images/programming/mysql.svg" class="tech-logo-1"/>
+        <img src="images/programming/gemini.svg" class="tech-logo-1"/>
+    </div>
+</div>
+
+
+<!-- Page 4: Porfolio gallery + selected blog posts with thumbnail images -->
+<div>
+    <div class="font-weight-600 text-center mb-3">
+        Portfolio
+    </div>
+
+    <p>Below are my personal projects, which I do to practice new technologies.</p>
+
+    <div>
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/landing_page.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    Landing Page
+                </div>
+
+                <div class="mb-3">
+                    Common landing page, news page, and products page
+                </div>
+
+                <div class="mb-3">
+                    <!--a href="https://github.com/lockex1987/landing-page" target="_blank">
+                        GitHub
+                    </a>
+                    <span class="mx-2">-</span-->
+                    <a href="https://landing-page.lockex1987.com" target="_blank">
+                        Demo
+                    </a>
+                </div>
+
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        AdonisJS
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Node.js
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        TypeScript
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/sso_passport.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    SSO Passport
+                </div>
+
+                <div class="mb-3">
+                    Single Sign-On
+                </div>
+
+                <div class="mb-3">
+                    <a href="https://sso-passport.lockex1987.com" target="_blank">
+                        Demo
+                    </a>
+                </div>
+
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Laravel
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Redis
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/sso_admin.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    SSO Admin
+                </div>
+
+                <div class="mb-3">
+                    Common features which an application should have
+                </div>
+
+                <div class="mb-3">
+                    <a href="https://sso-admin.lockex1987.com" target="_blank">
+                        Demo
+                    </a>
+                </div>
+
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Laravel
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Vue
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/websocket_server.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    Websocket server
+                </div>
+    
+                <div class="mb-3">
+                    Chat, transfer file
+                </div>
+    
+                <div class="mb-3">
+                    <a href="https://github.com/lockex1987/websocket-server" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        WebSocket
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        WebRTC
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Deno
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        TypeScript
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/youtube_subtitle_downloader.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    YouTube Subtitle Downloader
+                </div>
+    
+                <div class="mb-3">
+                    Closed caption, XML parser, import ES6 module, web_accessible_resources
+                </div>
+    
+                <div class="mb-3">
+                    <a href="https://github.com/lockex1987/youtube-subtitle-downloader" target="_blank">
+                        GitHub
+                    </a>
+                    <span class="mx-2">-</span>
+                    <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-subtitle-downloader/" target="_blank">
+                        Firefox Browser Add-ons
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Web extension
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/radio-online.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    Radio Online
+                </div>
+    
+                <div class="mb-3">
+                    Listen to Vietnamese radio stations (VOV - Voice Of Vietnam)
+                </div>
+    
+                <div class="mb-3">
+                    <a href="https://github.com/lockex1987/radio-online" target="_blank">
+                        GitHub
+                    </a>
+                    <span class="mx-2">-</span>
+                    <a href="https://static.lockex1987.com/radio-online/" target="_blank">
+                        Demo
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Streaming
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        m3u8
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        HLS
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        AACP
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Visualization
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/rename.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    Rename
+                </div>
+    
+                <div class="mb-3">
+                    Mass rename, compress comics in cbz format, use GraalVM to compile native binary
+                </div>
+    
+                <div class="mb-3">
+                    <a href="https://github.com/lockex1987/rename" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Bash
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        GraalVM
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        native
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/learn_three.js.png" />
+            </div>
+
+            <div>
+                <div class="mb-3 font-weight-600">
+                    Learn Three.js basics
+                </div>
+    
+                <div class="mb-3">
+                    My ebook guide for creating beautiful 3D scenes
+                </div>
+    
+                <div class="mb-3">
+                    <a href="https://github.com/lockex1987/learn-threejs" target="_blank">
+                        GitHub
+                    </a>
+                    <span class="mx-2">-</span>
+                    <a href="https://viblo.asia/s/hoc-threejs-co-ban-Q75wqJJ9ZWb" target="_blank">
+                        Viblo series
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Three.js
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        3D
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!--div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/lich_cua_toi.png" />
+            </div>
+
+            <div>
+                <div class="mb-3">
+                    <a href="https://lockex1987.com/posts/project%20-%20lich%20cua%20toi/" target="_blank">
+                        My Calendar
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    Lunar calendar, notify holidays, birthdays
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Progressive Web App
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        PWA
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Push notification
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/media_player.png" />
+            </div>
+
+            <div>
+                <div class="mb-3">
+                    <a href="https://lockex1987.com/posts/project%20-%20media%20player/" target="_blank">
+                        Media player
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    audio, video, subtitle, srt, lyric, lrc, karaoke, svg, fullscreen, vue, lock screen orientation
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        JS
+                    </span>
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        Vue
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="avoid-break d-flex">
+            <div class="mb-3 flex-shrink-0 me-4">
+                <img class="img-fluid border portfolio-screenshot" src="images/portfolio/my_family.png" />
+            </div>
+
+            <div>
+                <div class="mb-3">
+                    <a href="https://lockex1987.com/posts/project%20-%20my%20family/" target="_blank">
+                        My Family
+                    </a>
+                </div>
+    
+                <div class="mb-3">
+                    Genealogy
+                </div>
+    
+                <div class="mb-3">
+                    <span class="badge bg-soft-primary text-primary font-weight-400">
+                        JS
+                    </span>
+                </div>
+            </div>
+        </div-->
+    </div>
+</div>
+</body>
+</html>
