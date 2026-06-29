@@ -13,17 +13,17 @@ Senior Full-stack Developer
 ![cake](icons/bi-cake.svg) 1987 &nbsp; &nbsp;
 ![geo](icons/bi-geo-alt.svg) Hanoi, Vietnam
 
-[My CV](https://static.lockex1987.com/cv/cv-v2.pdf)
+[My CV](https://lockex1987.com/cv-v2.pdf)
 
 I've been working since 2009. My passion is building applications that are useful, secure, and high performance.
 
 Tech stack that I prefer:
 
-<img src="technologies/bun.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/golang.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/fiber.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/mysql.svg" height="48" />&nbsp;&nbsp;&nbsp;
-<img src="technologies/gemini.svg" height="48" />
+<img src="images/programming/bun.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="images/programming/vue.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="images/programming/golang.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="images/programming/fiber.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="images/programming/mysql.svg" height="48" />&nbsp;&nbsp;&nbsp;
+<img src="images/programming/gemini-2025.svg" height="48" />
 
 </div>

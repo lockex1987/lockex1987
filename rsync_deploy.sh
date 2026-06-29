@@ -1,5 +1,6 @@
 rsync -avz --delete \
   --exclude .git/ \
+  --exclude .gitignore \
   --exclude .vscode/ \
   --exclude node_modules/ \
   --exclude .eslintrc.json \
